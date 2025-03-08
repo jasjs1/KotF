@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGDOM OF THE FALLEN: I</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto';
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            font-family: 'Roboto'; font-weight: bold;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #222;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li {
+            padding: 10px;
+            text-align: left;
+        }
+        .hero {
+            background: url('game_logo.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 35px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #2b2b2b;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+            color: #d4af37;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: auto;
+            margin-bottom: 50px;
+        }
+
+        #about {
+            margin-top: 150px; /* Increase this value as needed */
+        }
+
+        .wb-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-right: auto; /* Pushes it to the left */
+        padding-left: 20px; /* Adjust as needed */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="wb-title">KINGDOM OF THE FALLEN: I</li>
+                <li><a href="#about">About</a></li>
+                <li>
+                    <a href="#features">Features</a>
+                    <ul>
+                        <li>Open-world exploration</li>
+                        <li>Character customization</li>
+                        <li>Dynamic battle system</li>
+                        <li>Quests and missions</li>
+                    </ul>
+                </li>
+                <li><a href="#play">Play Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="/website/assets/KotF-HERO2.png" alt="KINGDOM OF THE FALLEN: I" class="logo">
+        </div>
+        
+    </header>
+    
+    <section id="about">
+        <h2 style="font-weight: bolder;">ABOUT THE GAME</h2>
+        <p>Welcome to KINGDOM OF THE FALLEN: I, an epic medieval RPG where you forge your destiny in a war-torn land. Battle fearsome foes, unite kingdoms, and uncover ancient secrets hidden within the ruins of the fallen empire.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Game Features</h2>
+        <p>Experience a deep and immersive RPG with dynamic gameplay:</p>
+        <ul>
+            <li>Vast open world filled with dungeons, villages, and castles.</li>
+            <li>Customizable characters with skill trees and unique abilities.</li>
+            <li>Turn-based and real-time combat options.</li>
+            <li>Compelling storyline with multiple endings.</li>
+            <li>Rich lore and interactive NPCs.</li>
+        </ul>
+    </section>
+    
+    <section id="play">
+        <h2>Start Your Adventure</h2>
+        <p>Are you ready to embark on an unforgettable journey? Join the battle and shape the fate of the kingdom.</p>
+        <button>Play Now</button>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us at <a href="mailto:support@kingdomfallen.com">support@kingdomfallen.com</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 KINGDOM OF THE FALLEN: I. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
